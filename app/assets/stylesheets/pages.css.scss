@@ -1,0 +1,57 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.clear {clear: both;}
+.block-story {float: left; width: 100%; margin: 0; padding: 0; min-height: 600px; height: auto; background-color: #fff;}
+.block-webdesign {float: left; width: 100%; margin: 0; padding: 0; min-height: 600px; height: auto; background-color: #3498db;}
+.block-hire {float: left; width: 100%; margin: 0; padding: 0; min-height: 400px; height: auto; background-color: #000;}
+
+.block-image1 {float: left; width: 50%; margin: 25px 0% 0px 0%;}
+.block-image2 {float: left; width: 50%; margin: 25px 0% 0px 0%;}
+.block-image3 {float: left; width: 100%; margin: 5px 0% 5px 0%;}
+.block-image4 {float: left; width: 20%; margin: 25px 0% 25px 0%;}
+.block-image5 {float: left; width: 40%; margin: 50px 0% 5px 0%;}
+
+.story-box {float: left; margin: 25px 10%; width: 80%; font-family: "helveltica",sans-serif; color: #3498db; font-size: 58px; line-height: 64px; text-align: center;}
+.story-box2 {float: left; margin: 100px 5% 0 5%; width: 40%; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
+.skills-box {float: left; margin: 25px 0%; width: 100%; padding: 50px 10%; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
+
+.skills-box h1 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 40px; line-height: 30px;}
+.skills-box h4 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 14px; line-height: 14px;}
+
+.skills-box3 {float: left; width: 40%; margin: 0;}
+
+.skills-box2 {background-color: #000; border: 2px solid #000; color: #fff; border-radius: 10px;  float: left; text-align: left; width: 40%; margin: 10px 5%; padding: 5px;}
+.skills-box2 h2 { padding: 0 5px; float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 24px; line-height: 24px; }
+.skills-box2 ul {float: left; width: 100%; list-style-type: none;}
+.skills-box2 ul li {float: left; width: 100%; font-size: 18px; line-height: 20px; }
+
+.random-skills {float: left; width: 50%; margin: 50px 5% 10px 5%; padding: 0; color: #fff; font-size: 20px; line-height: 24px; }
+
+.portfolio {float: left; margin: 25px 0%; width: 100%; padding: 0px 0; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
+.portfolio h1 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 40px; line-height: 30px; padding-left: 10%;}
+.portfolio h4 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 14px; line-height: 14px; padding-left: 10%;}
+.portfolio-info {float: left; text-align: left; width: 50%; padding: 50px 5%; }
+.portfolio-info a.portfolio-button {float: left; border: 2px solid #fff; border-radius: 5px; margin: 25px; padding: 5px 10px; color: #fff;}
+.portfolio-info a.portfolio-button:hover {float: left; text-decoration: none; border: 2px solid #000; border-radius: 5px; margin: 25px; padding: 5px 10px; color: #000;}
+.portfolio-info h2 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 24px; line-height: 24px;}
+.portfolio-info p {float: left;}
+.portfolio2 {float: left; width: 100%; padding: 25px 10%;}
+
+div#carousel-example-generic.carousel.slide a.left.carousel-control {background-image: none;}
+div#carousel-example-generic.carousel.slide a.right.carousel-control {background-image: none;}
+
+.hire-box {float: left; width: 100%; padding: 25px 10%; margin: 0; color: #fff;}
+.hire-box h1 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 40px; line-height: 30px;}
+.hire-box h4 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 18px; line-height: 18px;}
+
+.hire-box div#accordion.panel-group div.panel.panel-default {background-color: #fff; color: #000; border: none;}
+.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading  {background-color: #3498db; color: #fff; height: 40px;}
+.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading h4.panel-title a:hover {color: #000; text-decoration: none;}
+
+.hire-box ul {float: left; width: 100%; list-style-type: none;}
+.hire-box ul li {float: left; width: 100%; font-size: 24px; line-height: 28px; }
+.hire-box2 {float: left; width: 80%; margin: 0; padding: 0;}
+
+.nav.navbar-nav.navbar-right li {padding: 15px 5px; font-size: 18px; line-height: 18px; font-family: "hwt-gothic-round",sans-serif;}
