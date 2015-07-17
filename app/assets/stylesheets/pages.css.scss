@@ -55,3 +55,51 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 .hire-box2 {float: left; width: 80%; margin: 0; padding: 0;}
 
 .nav.navbar-nav.navbar-right li {padding: 15px 5px; font-size: 18px; line-height: 18px; font-family: "hwt-gothic-round",sans-serif;}
+
+
+@media only screen and (min-width: 640px) and (max-width: 900px){
+
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px){
+
+	.block-story {min-height: 400px;}
+	.story-box {font-size: 28px; line-height: 34px;}
+	.block-webdesign img.block-image1 {width: 80%;}
+	.block-webdesign div.story-box2 {margin: 10px 5% 0 5%; width: 90%;}
+	.skills-box {padding: 10px 5%;}
+	.skills-box2 {margin: 10px 1%; width: 48%;}
+	.skills-box2 ul.fa-ul li {font-size: 14px; line-height: 16px;}
+	.block-image5 {width: 80%; margin: 25px 10% 5px 10%;}
+	.random-skills {width: 90%; margin: 10px 5%; font-size: 16px; line-height: 18px;}
+	.portfolio {font-size: 16px; line-height: 18px;}
+	.portfolio2 img.block-image1 {width: 100%; margin: 10px 0;}
+	.portfolio-info {padding: 5px 5%; width: 100%;}
+	.portfolio-info a.portfolio-button {margin: 5px;}
+	.hire-box div.hire-box2 ul li {font-size: 18px; line-height: 20px;}
+	.hire-box {padding: 10px 10%;}
+	.hire-box h4 {font-size: 16px; line-height: 16px;}
+	.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading {height: 50px;}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px){
+
+	.skills-box2 {margin: 10px 5%; width: 90%;}
+	.hire-box h4 {font-size: 14px; line-height: 14px;}
+	.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading {height: 60px;}
+	.portfolio-info h2 {font-size: 18px; line-height: 18px;}
+
+}	
