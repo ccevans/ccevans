@@ -70,6 +70,8 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 
 @media screen and (max-width: 640px){
 
+	html,body {width: 100%; margin: 0px; padding: 0px;}
+
 	.block-story {min-height: 400px;}
 	.story-box {font-size: 28px; line-height: 34px;}
 	.block-webdesign img.block-image1 {width: 80%;}
@@ -83,10 +85,15 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 	.portfolio2 img.block-image1 {width: 100%; margin: 10px 0;}
 	.portfolio-info {padding: 5px 5%; width: 100%;}
 	.portfolio-info a.portfolio-button {margin: 5px;}
+	.portfolio-info a.portfolio-button:hover {margin: 5px;}
+
 	.hire-box div.hire-box2 ul li {font-size: 18px; line-height: 20px;}
 	.hire-box {padding: 10px 10%;}
 	.hire-box h4 {font-size: 16px; line-height: 16px;}
 	.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading {height: 50px;}
+
+	.block-story img.block-image1 {margin: 5px 0 0 0;}
+	.block-story img.block-image2 {margin: 5px 0 0 0;}
 }
 
 
