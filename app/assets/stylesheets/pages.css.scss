@@ -57,7 +57,7 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 
 .nav.navbar-nav.navbar-right li {padding: 15px 5px; font-size: 18px; line-height: 18px; font-family: "hwt-gothic-round",sans-serif;}
 
-.liftoff-projects {float: left; width: 100%; margin: 0; padding: 0; background-color: #3498db;}
+.liftoff-projects {float: left; width: 100%; margin: 0; padding: 100px 0; background-color: #3498db;}
 .spaceshipsite-image {float: left; width: 100%; margin: 0; padding: 0;}
 .spaceshipsite-image2 {float: left; width: 40%; margin: 100px 30% 25px 30%; padding: 0;}
 .spaceshipsite-image3 {float: left; width: 60%; margin: 50px 20%; padding: 0;}
@@ -65,6 +65,8 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 .spaceshipsite-image6 {float: left; width: 45%; margin: 50px 0 0 5%; padding: 0;}
 .spaceshipsite-image5 {float: left; width: 50%; margin: 15px 25%; padding: 0;}
 .spaceshipsite-image7 {float: left; width: 70%; margin: 75px 15%; padding: 0;}
+
+.culture-section {position: absolute; width: 100%; height: 100%; margin: 0; padding: 100px 0; background-color: #3498db;}
 
 @media only screen and (min-width: 640px) and (max-width: 900px){
 
@@ -103,6 +105,10 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 
 	.block-story img.block-image1 {margin: 5px 0 0 0;}
 	.block-story img.block-image2 {margin: 5px 0 0 0;}
+
+	.liftoff-projects {float: left; width: 100%; margin: 0; padding: 50px 0; background-color: #3498db;}
+	.culture-section {position: absolute; width: 100%; height: 100%; margin: 0; padding: 50px 0; background-color: #3498db;}
+
 }
 
 
