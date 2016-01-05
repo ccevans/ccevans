@@ -19,6 +19,74 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-.logo-head2 {float: left; max-width: 250px; min-width: 150px; width: 20%;}
+.logo-head2 {float: left; max-width: 250px; min-width: 100px; width: 20%;}
 nav.navbar.navbar-default {border-radius: 0; border: none; margin-bottom: 0; background-color: #3498db; color: #fff;}
 nav.navbar.navbar-default div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav.navbar-right li a {color: #fff; font-size: 18px; line-height: 18px;}
+
+
+.titleheader {margin: 5px 25px 0 0; text-align: left; float: left;}
+.topbar {float: left; height: auto; width: 100%; margin: 0; padding: 5px 50px 5px 10px; color: #fff; background-color: #3498db;}
+.topbar ul {font-family: "hwt-gothic-round",sans-serif; width: auto; margin: 0; padding: 0; float: right; list-style-type: none;}
+.topbar ul li {font-size: 24px; width: auto; margin: 2px 10px; color: #fff; float: left;}
+#menu-icon {cursor: pointer; z-index: 51; font-size: 24px; color: #000; width: auto; position: absolute; right: 15px; top: 5px;}
+#menu-icon i {color: #000;}
+.titleheader h1 i {font-size: 20px; color: #000;}
+
+body.noscroll {
+    overflow: hidden;
+    position: relative;
+}
+
+.nodisplay {display: none !important;}
+
+.rightmenu {font-family: "hwt-gothic-round",sans-serif; width: 65%; margin: 0; padding: 0; font-size: 18px; color: #000; background-color: rgba(255, 255, 255, 1); overflow-y: scroll; height: 100%; list-style: none; position: fixed; top: 0; right: 0; z-index: 5000; max-width: 400px; 
+    transition: all 300ms ease 0s;  
+    -webkit-transition: all 300ms ease 0s;  
+    -moz-transition: all 300ms ease 0s;  
+    -o-transition: all 300ms ease 0s;  
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform:    translateX(100%);
+    -ms-transform:     translateX(100%);
+    -o-transform:      translateX(100%);
+}
+
+.rightmenu.revealed {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform:    translateX(0%);
+    -ms-transform:     translateX(0%);
+    -o-transform:      translateX(0%);
+}
+
+.rightmenu ul {list-style-type: none; width: 100%; margin: 0; padding: 0;}
+.rightmenu ul li {float: left; width: 80%; height: auto; padding: 0; margin: 5px 10%;}
+.rightmenu ul li:hover {color: #000;}
+.menu-name {float: left; font-size: 18px; padding: 0 0 0 10px;}
+.rightmenu ul li.menu-top {float: left; width: 80%; height: auto; margin: 0; padding: 10px 10%; background: rgba(211,211,211,1); color: #000;}
+.rightmenu ul li.menu-top a {color: #000;}
+.rightmenu ul li.menu-top a:hover {color: #3498db;}
+
+.rightmenu ul a:hover li.menu-top {color: #fff;}
+.rightmenu ul li a {color: #000;}
+.rightmenu ul li a:hover {color: #3498db; text-decoration: none;}
+.rightmenu ul li a i {padding: 0 10px 0 0;}
+.menu-li {padding: 0 0 0 10px;}
+
+
+.overlay {cursor: pointer; position: fixed; background-color: rgba(255,255,255,.6); bottom: 0; left: 0; top: 0; right: 0; z-index: 4000; opacity: 1;
+    transition: opacity .25s linear 0s;
+    -webkit-transition: opacity .25s linear 0s; 
+    -moz-transition: opacity .25s linear 0s;  
+    -o-transition: opacity .25s linear 0s;
+}
+.overlay.revealed {cursor: pointer; position: fixed; background-color: rgba(255,255,255,.6); bottom: 0; left: 0; top: 0; right: 0; z-index: 4000; opacity: 1;
+    transition: opacity .25s linear 0s;
+    -webkit-transition: opacity .25s linear 0s; 
+    -moz-transition: opacity .25s linear 0s;  
+    -o-transition: opacity .25s linear 0s;
+}
+
+.topbar ul li a i {color: #fff;}
+.topbar ul li a i:hover {color: #000;}
+.logo-menu {float: left; width: 100%;}

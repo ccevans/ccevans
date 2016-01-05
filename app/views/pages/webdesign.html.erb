@@ -1,21 +1,7 @@
 
-<section class="block-story">
-
-		<div class="story-box">
-		<p>
-		I build websites, web apps and everything in between.</p>
-
-
-	</div>
-	
-		<%= image_tag 'waiting-spaceship-black.png', :class => "block-image1" %>
-
-				<%= image_tag 'moon-black.png', :class => "block-image2" %>
-
-
-</section>
-
 <section class="block-webdesign">
+
+  <%= image_tag 'webapps.png', :class => "spaceshipsite-image7" %>
 
 	<%= image_tag 'space-computer2.png', :class => "block-image1" %>
 
@@ -25,7 +11,7 @@
 			<%= image_tag 'start-finish.png', :class => "block-image3" %>
 
 		<p>
-		I create unique sites from start to finish.  Which means I handle the design direction, user experience, illustrations, photography to user interactions, database design and backend development.</p>
+		My team and I create unique sites from start to finish.  Which means we handle the design direction, user experience, illustrations, photography to user interactions, database design and backend development.</p>
 
 
 	</div>
@@ -81,7 +67,7 @@
 
 
 		<div class="random-skills">
-			I got plenty of random skills like I can cook a nice steak on the grill.  I can do some screen printing on my personal printer.  I can put up a couple of 3's on the court.  I use to day trade stock in college.  My mom use to have me put together all of the furniture, I can follow directions.
+			I got plenty of random skills like we can cook a nice steak on the grill.  I can do some screen printing on my personal printer.  I can put up a couple of 3's on the court.  I use to day trade stock in college.  My mom use to have me put together all of the furniture, I can follow directions.
 
 
 		</div>
@@ -98,7 +84,7 @@
 
 		<div class="portfolio">
 			<h1>Portfolio</h1><div class="clear"></div>
-		<h4>These projects I enjoyed building the most.</h4>
+		<h4>These projects my team and I enjoyed building the most.</h4>
 		<div class="clear"></div>
 
 
@@ -127,7 +113,7 @@
 				<h2>RhymesandDesigns.com</h2><div class="clear"></div>
 				<p>Skills Used: Photography, Design, Illustrations, UX/UI, Site Archectiture, HTML, CSS, Javascript, Ruby on Rails, Ecommerce</p>
 
-				<%= link_to 'Go To Site', 'http://www.rhymesanddesigns.com',:class => "portfolio-button" %>
+				<%= link_to 'Go To Site', 'http://www.rhymesanddesigns.com', :target => "_blank",:class => "portfolio-button" %>
 
 			</div>
 		</div>
@@ -140,7 +126,7 @@
 				<h2>330Monday.com</h2><div class="clear"></div>
 				<p>Skills Used: Photography, Icons, Design, UX/UI, HTML, CSS, Javascript, Ruby on Rails</p>
 
-				<%= link_to 'Go To Site', 'http://www.rhymesanddesigns.com',:class => "portfolio-button" %>
+				<%= link_to 'Go To Site', 'http://www.rhymesanddesigns.com', :target => "_blank", :class => "portfolio-button" %>
 
 			</div>
 		</div>
@@ -152,7 +138,7 @@
 				<h2>DuppandSwat.com</h2><div class="clear"></div>
 				<p>Skills Used: Photography, Design, Site Archectiture, HTML, CSS, Javascript, Wordpress, Ecommerce</p>
 
-				<%= link_to 'Go To Site', 'http://www.duppandswat.com',:class => "portfolio-button" %>
+				<%= link_to 'Go To Site', 'http://www.duppandswat.com', :target => "_blank",:class => "portfolio-button" %>
 
 			</div>
 		</div>
@@ -164,7 +150,7 @@
         <h2>dailylyric.com</h2><div class="clear"></div>
         <p>Skills Used: UX/UI, Design, Ruby on Rails, HTML, CSS, Javascript, Ecommerce</p>
 
-        <%= link_to 'Go To Site', 'http://www.dailylyric.com',:class => "portfolio-button" %>
+        <%= link_to 'Go To Site', 'http://www.dailylyric.com', :target => "_blank",:class => "portfolio-button" %>
 
       </div>
     </div>
@@ -176,7 +162,7 @@
         <h2>enrollhealthinsurance.com</h2><div class="clear"></div>
         <p>Skills Used: UX/UI, Interactive Design, Ruby on Rails, HTML, CSS, Javascript</p>
 
-        <%= link_to 'Go To Site', 'http://www.enrollhealthinsurance.com',:class => "portfolio-button" %>
+        <%= link_to 'Go To Site', 'http://www.enrollhealthinsurance.com', :target => "_blank",:class => "portfolio-button" %>
 
       </div>
     </div>
@@ -188,7 +174,7 @@
         <h2>#checkoutclt</h2><div class="clear"></div>
         <p>Skills Used: UX/UI, Interactive Design, Ruby on Rails, HTML, CSS, Javascript, Canvas</p>
 
-        <%= link_to 'Go To Site', 'http://www.330monday.com/pages/checkoutclt',:class => "portfolio-button" %>
+        <%= link_to 'Go To Site', 'http://www.330monday.com/pages/checkoutclt', :target => "_blank",:class => "portfolio-button" %>
 
       </div>
     </div>
@@ -228,7 +214,7 @@
 				<h2>Contact Me</h2>
 				<ul>
 					<li>Email at cc@ccevans.com</li>
-					<li>Text/Call at 704-458-3043</li>
+					<li>Text at 704-458-3043</li>
 
 				</ul>
 			</div>
@@ -440,12 +426,24 @@
 
 </section> 
 
+<section class="block-story">
+
+    <div class="story-box">
+    <p>
+    Lift off with us.</p>
 
 
+  </div>
+  
+    <%= image_tag 'waiting-spaceship-black2.png', :class => "block-image1" %>
+
+        <%= image_tag 'moon-black.png', :class => "block-image2" %>
 
 
+</section>
 
-	<script>
+
+<script>
    $(function(){
       $(".player").YTPlayer();
     });
