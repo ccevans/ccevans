@@ -74,13 +74,13 @@ body.noscroll {
 .menu-li {padding: 0 0 0 10px;}
 
 
-.overlay {cursor: pointer; position: fixed; background-color: rgba(255,255,255,.6); bottom: 0; left: 0; top: 0; right: 0; z-index: 4000; opacity: 1;
+.overlay {cursor: pointer; position: fixed; background-color: rgba(0,0,0,.6); bottom: 0; left: 0; top: 0; right: 0; z-index: 4000; opacity: 1;
     transition: opacity .25s linear 0s;
     -webkit-transition: opacity .25s linear 0s; 
     -moz-transition: opacity .25s linear 0s;  
     -o-transition: opacity .25s linear 0s;
 }
-.overlay.revealed {cursor: pointer; position: fixed; background-color: rgba(255,255,255,.6); bottom: 0; left: 0; top: 0; right: 0; z-index: 4000; opacity: 1;
+.overlay.revealed {cursor: pointer; position: fixed; background-color: rgba(0,0,0,.6); bottom: 0; left: 0; top: 0; right: 0; z-index: 4000; opacity: 1;
     transition: opacity .25s linear 0s;
     -webkit-transition: opacity .25s linear 0s; 
     -moz-transition: opacity .25s linear 0s;  
