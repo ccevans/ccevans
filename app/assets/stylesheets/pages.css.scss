@@ -66,7 +66,26 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 .spaceshipsite-image5 {float: left; width: 50%; margin: 15px 25%; padding: 0;}
 .spaceshipsite-image7 {float: left; width: 70%; margin: 75px 15%; padding: 0;}
 
+.spaceshipsite-image:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: .8;
+}
+
 .culture-section {position: absolute; width: 100%; height: 100%; margin: 0; padding: 100px 0; background-color: #3498db;}
+
+.projectheader {font-family: "hwt-gothic-round",sans-serif; width: 100%; text-align: center; }
+.projectcount {font-family: "hwt-gothic-round",sans-serif; font-size: 120px; line-height: 40px; padding: 10px 5px;}
+.projecttitle {font-family: "hwt-gothic-round",sans-serif; font-size: 60px; line-height: 40px; text-align: right;}
+.launchtoday {color: #fff; margin: 50px 0;}
+.launchtoday a {color: #f1c40f; margin: 50px 0; font-size: 24px;}
+.launchtoday a:hover {color: #fff; margin: 50px 0; font-size: 24px; text-decoration: none;}
+
+.programliftoff {width: 100%; padding: 25px 5%; background-color: #fff; color: #000; font-family: "hwt-gothic-round",sans-serif;}
+.programliftoff p {font-family: "helveltica",sans-serif; font-size: 24px; line-height: 26px;}
+#learnclick {cursor: pointer;}
 
 @media only screen and (min-width: 640px) and (max-width: 900px){
 
