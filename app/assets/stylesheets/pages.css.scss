@@ -5,7 +5,7 @@
 .clear {clear: both;}
 .block-story {float: left; width: 100%; margin: 0; padding: 0; min-height: 600px; height: auto; background-color: #fff;}
 .block-webdesign {float: left; width: 100%; margin: 0; padding: 50px 0 0 0; min-height: 600px; height: auto; background-color: #3498db;}
-.block-hire {float: left; width: 100%; margin: 0; padding: 0; min-height: 400px; height: auto; background-color: #000;}
+.block-hire {float: left; width: 100%; margin: 0; padding: 0; min-height: 400px; height: auto; background-color: #3498db;}
 .block-hire-service {float: left; width: 100%; margin: 0; padding: 50px 0 0 0; min-height: 400px; height: auto; background-color: #3498db;}
 
 .block-image1 {float: left; width: 50%; margin: 25px 0% 0px 0%;}
@@ -13,11 +13,16 @@
 .block-image3 {float: left; width: 100%; margin: 5px 0% 5px 0%;}
 .block-image4 {float: left; width: 20%; margin: 25px 0% 25px 0%;}
 .block-image5 {float: left; width: 40%; margin: 50px 0% 5px 0%;}
+.block-image6 {float: left; width: 100%; margin: 25px 0% 0px 0%;}
+.block-image7 {float: left; width: 60%; margin: 25px 20% 5px 20%;}
 
 .story-box {float: left; margin: 25px 10%; width: 80%; font-family: "helveltica",sans-serif; color: #3498db; font-size: 58px; line-height: 64px; text-align: center;}
-.story-box2 {float: left; margin: 100px 5% 0 5%; width: 40%; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
+.story-box2 {float: left; margin: 50px 5% 0 5%; width: 40%; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
+.story-box3 {float: left; margin: 25px 10% 0 10%; width: 80%; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
 .skills-box {float: left; margin: 25px 0%; width: 100%; padding: 50px 10%; font-family: "helveltica",sans-serif; color: #fff; font-size: 24px; line-height: 28px; text-align: center;}
 
+.story-box3 h1 {width: 100%; float: left;  font-family: "hwt-gothic-round",sans-serif; font-size: 40px; line-height: 30px;}
+.story-box3 p {font: left;}
 .skills-box h1 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 40px; line-height: 30px;}
 .skills-box h4 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 14px; line-height: 14px;}
 
@@ -39,6 +44,11 @@
 .portfolio-info h2 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 24px; line-height: 24px;}
 .portfolio-info p {float: left;}
 .portfolio2 {float: left; width: 100%; padding: 25px 10%;}
+.liftoffportfolio-info {float: left; text-align: left; width: 100%; padding: 50px 15%; }
+.liftoffportfolio-info  a.portfolio-button {float: left; border: 2px solid #fff; border-radius: 5px; margin: 25px; padding: 5px 10px; color: #fff;}
+.liftoffportfolio-info  a.portfolio-button:hover {float: left; text-decoration: none; border: 2px solid #000; border-radius: 5px; margin: 25px; padding: 5px 10px; color: #000;}
+.liftoffportfolio-info  h2 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 24px; line-height: 24px;}
+.liftoffportfolio-info  p {float: left;}
 
 div#carousel-example-generic.carousel.slide a.left.carousel-control {background-image: none;}
 div#carousel-example-generic.carousel.slide a.right.carousel-control {background-image: none;}
@@ -48,7 +58,7 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 .hire-box h4 {float: left; font-family: "hwt-gothic-round",sans-serif; font-size: 18px; line-height: 18px;}
 
 .hire-box div#accordion.panel-group div.panel.panel-default {background-color: #fff; color: #000; border: none;}
-.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading  {background-color: #3498db; color: #fff; height: 40px;}
+.hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading  {background-color: #fff; color: #000; height: 40px;}
 .hire-box div#accordion.panel-group div.panel.panel-default div.panel-heading h4.panel-title a:hover {color: #000; text-decoration: none;}
 
 .hire-box ul {float: left; width: 100%; list-style-type: none; padding: 0;}
@@ -76,7 +86,7 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 
 .culture-section {position: absolute; width: 100%; height: 100%; margin: 0; padding: 100px 0; background-color: #3498db;}
 
-.projectheader {font-family: "hwt-gothic-round",sans-serif; width: 100%; text-align: center; }
+.projectheader {font-family: "hwt-gothic-round",sans-serif; width: 100%; text-align: center; float: left; padding: 50px 0; }
 .projectcount {font-family: "hwt-gothic-round",sans-serif; font-size: 120px; line-height: 40px; padding: 10px 5px;}
 .projecttitle {font-family: "hwt-gothic-round",sans-serif; font-size: 60px; line-height: 40px; text-align: right;}
 .launchtoday {color: #fff; margin: 50px 0;}
@@ -87,6 +97,9 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 .programliftoff p {font-family: "helveltica",sans-serif; font-size: 24px; line-height: 26px;}
 #learnclick {cursor: pointer;}
 
+.liftoff-description {float: left; margin: 5px 15% 0 15%; width: 70%; font-family: "helveltica",sans-serif; color: #fff; font-size: 20px; line-height: 24px; text-align: center}
+
+.feature-box {float: left; width: 30%; margin: 0 1.5%; min-width: 100px; max-width: 400px;}
 @media only screen and (min-width: 640px) and (max-width: 900px){
 
 
@@ -104,6 +117,7 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 
 	.block-story {min-height: 400px;}
 	.story-box {font-size: 28px; line-height: 34px;}
+	.story-box2 {float: left; margin: 100px 5% 0 5%; width: 40%; font-family: "helveltica",sans-serif; color: #fff; font-size: 16px; line-height: 18px; text-align: center;}
 	.block-webdesign img.block-image1 {width: 80%;}
 	.block-webdesign div.story-box2 {margin: 10px 5% 0 5%; width: 90%;}
 	.skills-box {padding: 10px 5%;}
@@ -117,6 +131,11 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 	.portfolio-info a.portfolio-button {margin: 5px;}
 	.portfolio-info a.portfolio-button:hover {margin: 5px;}
 
+	.portfolio2 img.block-image6 {width: 100%; margin: 10px 0;}
+	.liftoffportfolio-info {padding: 5px 5%; width: 100%;}
+	.liftoffportfolio-info a.portfolio-button {margin: 5px;}
+	.liftoffportfolio-info a.portfolio-button:hover {margin: 5px;}
+
 	.hire-box div.hire-box2 ul li {font-size: 18px; line-height: 20px;}
 	.hire-box {padding: 10px 10%;}
 	.hire-box h4 {font-size: 16px; line-height: 16px;}
@@ -128,6 +147,16 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 	.liftoff-projects {float: left; width: 100%; margin: 0; padding: 50px 0; background-color: #3498db;}
 	.culture-section {position: absolute; width: 100%; height: 100%; margin: 0; padding: 50px 0; background-color: #3498db;}
 
+	.projectheader {font-family: "hwt-gothic-round",sans-serif; width: 100%; text-align: center; margin: 50px 0 0 0; }
+	.projectcount {font-family: "hwt-gothic-round",sans-serif; font-size: 80px; line-height: 30px; padding: 10px 5px;}
+	.projecttitle {font-family: "hwt-gothic-round",sans-serif; font-size: 40px; line-height: 30px; text-align: right;}
+	.launchtoday {color: #fff; margin: 25px 0;}
+	.launchtoday a {color: #f1c40f; margin: 25px 0; font-size: 24px;}
+	.launchtoday a:hover {color: #fff; margin: 25px 0; font-size: 24px; text-decoration: none;}
+
+	.programliftoff {width: 100%; padding: 25px 5%; background-color: #fff; color: #000; font-family: "hwt-gothic-round",sans-serif;}
+	.programliftoff p {font-family: "helveltica",sans-serif; font-size: 24px; line-height: 26px;}
+	#learnclick {cursor: pointer;}
 }
 
 
