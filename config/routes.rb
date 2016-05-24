@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get 'pages/culture'
   get 'pages/shop'
   get 'pages/spaceship'
-  root 'pages#projects'
+  get 'pages/projects'
+  get 'app/index'
+
+  root 'pages#home'
   
 end

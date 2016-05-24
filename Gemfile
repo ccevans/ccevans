@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'coffee-script-source', '1.8.0'
 gem 'font-awesome-sass'
 gem 'bootstrap-sass', '~> 3.3.3'
+gem 'angularjs-rails'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
