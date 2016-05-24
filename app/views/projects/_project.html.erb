@@ -1,4 +1,6 @@
-          
+<% if project.link.present? %>
+
+<%= link_to project.link, :target => "_blank" do %>       
 <li>
       <div class="projectimage <%= project.id %>">
 
@@ -18,3 +20,29 @@
       </ul>
 
 </li>
+<% end %>
+
+<% else %>
+      
+<li>
+      <div class="projectimage <%= project.id %>">
+
+            <%= image_tag project.image.url(:medium) %>
+
+      </div>
+      <ul class="projectinfo">
+            <% if project.title.present? %>
+            <li class="titleline <%= project.id %>"><h2><%= project.title %></h2></li>
+            <% end %>
+            <% if project.description.present? %>
+            <li class="descriptionline <%= project.id %>"><h2><%= project.description %></h2></li>
+            <% end %>
+            <% if project.info.present? %>
+            <li class="infoline <%= project.id %>"><h2><%= project.info %></h2></li>
+            <% end %>                        
+      </ul>
+
+</li>
+
+
+<% end %>
