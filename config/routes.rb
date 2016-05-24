@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   get 'app/index'
 
   root 'pages#home'
+
+  resources :projects
   
 end

@@ -13,6 +13,8 @@ gem 'coffee-script-source', '1.8.0'
 gem 'font-awesome-sass'
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'angularjs-rails'
+gem 'paperclip', '~> 4.2'
+gem 'aws-sdk', '< 2.0'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
