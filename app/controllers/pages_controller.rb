@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
-  	@projects = Project.all.order('order DESC')
+  	@projects = Project.all
+  	@currentupdate = Currentupdate.last
   end
 
 

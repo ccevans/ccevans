@@ -11,13 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160524020049) do
+ActiveRecord::Schema.define(version: 20160524094642) do
+
+  create_table "currentupdates", force: true do |t|
+    t.text     "info"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "projects", force: true do |t|
     t.string   "title"
     t.text     "description"
     t.string   "info"
-    t.integer  "order"
+    t.integer  "ordernumber"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "image_file_name"

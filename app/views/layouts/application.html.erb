@@ -30,7 +30,13 @@
 </head>
 <body>
 
-	<%= render 'layouts/header' %>
+<% if current_page?(root_path) %>
+    <%= render 'layouts/header2' %>
+
+<% else %>
+
+    <%= render 'layouts/header' %>
+<% end %>
 
 <%= yield %>
 

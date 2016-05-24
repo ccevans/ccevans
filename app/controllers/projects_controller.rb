@@ -1,8 +1,6 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:edit, :update, :destroy]
 
-  respond_to :html, :json, :js
-
 
   def new
     @project = Project.new
@@ -41,6 +39,6 @@ class ProjectsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def project_params
-      params.require(:project).permit(:title, :description, :info, :order, :image)
+      params.require(:project).permit(:image, :title, :description, :info, :ordernumber)
     end
 end

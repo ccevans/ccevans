@@ -104,9 +104,17 @@ div#carousel-example-generic.carousel.slide a.right.carousel-control {background
 .hire-box2 ul li a.typeform-share.link {color: #000;}
 .hire-box2 ul li a.typeform-share.link:hover {color: #fff; text-decoration: none;}
 
-.homebox {float: left; width: 100%; margin: 0; padding: 100px 0; background-color: #3498db;   font-family: "source-code-pro",sans-serif;}
-.homeintro {float: left; width: 100%; margin: 100px 0; padding: 0 20%; color: #fff; font-size: 24px; line-height: 26px; text-align: center;}
+.homebox {float: left; width: 100%; margin: 0; padding: 50px 20%; background-color: #3498db;   font-family: "source-code-pro",sans-serif;}
+.homeintro {float: left; width: 100%; margin: 100px 0 25px 0; padding: 0; color: #fff; font-size: 24px; line-height: 26px; text-align: center;}
 .headerfont {font-weight: 700;}
+
+.updatebox {float: left; width: 100%; margin: 50px 0; padding: 0;}
+.updateimage {float: left; width: 15%; margin: 0 5% 0 0; padding: 0; text-align: right;}
+.updateimage i {font-size: 60px; color: #000; text-align: right;}
+.updatebox ul {float: left; width: 80%; margin: 0; padding: 0; list-style-type: none;}
+.updatebox li {float: left; width: 100%; margin: 5px 0; padding: 0;}
+.updatebox ul li h1 {font-size: 18px; line-height: 18px; color: #000; margin: 0; padding: 0;}
+.updatebox ul li p {font-size: 18px; line-height: 20px; color: #f1c40f; margin: 0; padding: 0;}
 
 @media only screen and (min-width: 640px) and (max-width: 900px){
 

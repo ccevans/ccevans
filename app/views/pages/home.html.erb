@@ -3,7 +3,17 @@
 		<span class="headerfont">it’s A spaceship</span> is where I experiment with concepts, test ideas, build businesses, create websites and do cultural projects.
 	</div>
 
+	<div class="updatebox">
+		<div class="updateimage"><i class="fa fa-rocket"></i></div>
+		<ul>
+			<li><h1>space stuff I’m currently doing:</h1></li>
+			<li><p><%= @currentupdate.info %></p></li>
+		</ul>
+	</div>
 
 
+	  <ul class="projectlist">
+	  <%= render @projects %>
+	</ul>
 
 </div>

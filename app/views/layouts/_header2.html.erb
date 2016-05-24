@@ -1,0 +1,89 @@
+<nav class="topbar">
+      <%= link_to root_path do %>
+            <div class="titleheader">
+
+                <%= image_tag 'itsaspaceship.png', :class => "logo-head2" %>
+            </div>
+      <% end %>
+
+</nav>
+
+<div id="menu-icon">
+    <i class="fa fa-bomb"></i>
+</div>
+
+<div class="overlay nodisplay"></div>
+
+<div class="rightmenu">
+  <ul>
+    <li>
+      <%= link_to root_path do %>
+      <%= image_tag 'itsaspaceship-blue.png', :class => "logo-menu" %>
+      <% end %>
+
+    </li>
+    <li>cc@ccevans.com</li>
+    <li>
+
+    <a class="typeform-share link" href="https://starttoday.typeform.com/to/qkyqZx" data-mode="2" target="_blank">Start Launch</a>
+    <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+    </li>
+    <li>
+
+      <a class="typeform-share link" href="https://starttoday.typeform.com/to/FZpsEl" data-mode="2" target="_blank">Schedule Call</a>
+      <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+
+
+    </li>
+
+    <li>
+      <%= link_to root_path do %>
+      <i class="fa fa-rocket fa-fw"></i><span class="menu-li">Projects</span>
+      <% end %>
+
+    </li>
+    <li>
+      <%= link_to pages_webdesign_path do %>
+      <i class="fa fa-ship fa-fw"></i><span class="menu-li">Services</span>
+      <% end %>
+
+    </li>
+    <li>
+      <%= link_to pages_culture_path do %>
+      <i class="fa fa-subway fa-fw"></i><span class="menu-li">Culture & Events</span>
+      <% end %>
+
+    </li>
+      <li>
+      <%= link_to pages_shop_path do %>
+      <i class="fa fa-truck fa-fw"></i><span class="menu-li">Shop Incubator</span>
+      <% end %>
+
+    </li>
+
+    <li>
+      <%= link_to "http://weloveclt.com/", :target => "_blank" do %>
+      <%= image_tag 'footer-icon.png', :class => "" %>
+      <% end %>
+
+    </li>
+  </ul>
+
+
+
+  </div>
+
+
+<script>
+  $('#menu-icon').click(function(){
+    $('.rightmenu').addClass('revealed');
+    $('.overlay').removeClass('nodisplay');
+    $('body').addClass("noscroll");
+  });
+  $('.overlay').click(function(){
+    $('.rightmenu').removeClass('revealed');
+    $('.overlay').addClass('nodisplay');
+    $('body').removeClass("noscroll");
+  });
+</script>

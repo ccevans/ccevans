@@ -4,7 +4,7 @@ class CreateProjects < ActiveRecord::Migration
       t.string :title
       t.text :description
       t.string :info
-      t.integer :order
+      t.integer :ordernumber
 
       t.timestamps
     end
