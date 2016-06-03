@@ -15,6 +15,9 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem 'angularjs-rails'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
+gem 'angular-rails-templates'
+gem 'angular_rails_csrf'
+gem 'devise', '~> 3.4.0'
 
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
