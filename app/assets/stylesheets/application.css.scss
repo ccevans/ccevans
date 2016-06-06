@@ -45,7 +45,7 @@ body.noscroll {
 
 .nodisplay {display: none !important;}
 
-.rightmenu {text-transform: uppercase; font-family: "source-code-pro"; width: 65%; margin: 0; padding: 0; font-size: 18px; color: #000; background-color: rgba(255, 255, 255, 1); overflow-y: scroll; height: 100%; list-style: none; position: fixed; top: 0; right: 0; z-index: 5000; max-width: 400px; 
+.rightmenu {text-transform: uppercase; font-family: "source-code-pro", sans-serif; width: 65%; margin: 0; padding: 0; font-size: 18px; color: #000; background-color: rgba(255, 255, 255, 1); overflow-y: scroll; height: 100%; list-style: none; position: fixed; top: 0; right: 0; z-index: 5000; max-width: 400px; 
     transition: all 300ms ease 0s;  
     -webkit-transition: all 300ms ease 0s;  
     -moz-transition: all 300ms ease 0s;  
