@@ -65,8 +65,8 @@ body.noscroll {
     -o-transform:      translateX(0%);
 }
 
-.rightmenu ul {list-style-type: none; width: 100%; margin: 0; padding: 0;}
-.rightmenu ul li {float: left; width: 80%; height: auto; padding: 0; margin: 5px 10%;}
+.rightmenu ul {list-style-type: none; width: 100%; margin: 0; padding: 0; font-family: "source-code-pro", sans-serif;}
+.rightmenu ul li {float: left; width: 80%; height: auto; padding: 0; margin: 5px 10%; font-family: "source-code-pro", sans-serif;}
 .rightmenu ul li:hover {color: #000;}
 .menu-name {float: left; font-size: 18px; padding: 0 0 0 10px;}
 .rightmenu ul li.menu-top {float: left; width: 80%; height: auto; margin: 0; padding: 10px 10%; background: rgba(211,211,211,1); color: #000;}
