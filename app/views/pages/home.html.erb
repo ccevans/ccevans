@@ -1,13 +1,13 @@
 <div class="homebox">
 	<div class="homeintro">
-		<span class="headerfont">it’s A spaceship</span> is where I experiment with concepts, test ideas, build businesses, create websites and do cultural projects.
+		<span class="headerfont">it’s A spaceship</span> is where we experiment with concepts, test ideas, build businesses, create websites and do cultural projects.  Hit up the <%= link_to "Chicken Coop Call Center", "http://www.chickencoop.cc/", :target => "_blank" %> for website, app and digital assistance.
 	</div>
 
 	<% if @currentupdate.present? %>
 	<div class="updatebox">
 		<div class="updateimage"><i class="fa fa-rocket"></i></div>
 		<ul>
-			<li><h1>space stuff I’m currently doing:</h1></li>
+			<li><h1>space stuff we are currently doing:</h1></li>
 			<li><p><%= @currentupdate.info %></p></li>
 		</ul>
 	</div>
